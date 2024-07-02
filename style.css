@@ -1,18 +1,117 @@
-.gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: #EFFFFD;
+}
+
+.navbar {
+  padding: 10px 20px; 
+  background-color: #EFFFFD; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#about {
+  background-color: #B8FFF9;
+  min-height: 100vh; 
+  max-height: fit-content;
+}
+
+
+.container {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.skill {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #42a5f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.skill ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill ul li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #666; 
+}
+
+.skill ul li:before {
+    content: "\2022"; 
+    color: #42a5f5; 
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+#projects {
+  background-color: #B8FFF9;
+  min-height: 100vh; 
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background-color: #EFFFFD 
+  color: #fff;
+  min-height: 20vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-body-secondary {
+  color: #6c757d;
+}
+
+
 

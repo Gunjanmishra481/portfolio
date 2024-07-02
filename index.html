@@ -9,38 +9,22 @@
 </head>
 <body>
 <section id="navbar" class="gradient-background">
-    <nav class="navbar navbar bg" aria-label="First navbar example">
-        <div class="container-fluid">
-          <a class="navbar-brand"href="#">GM</a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="navbarsExample01">
-            <ul class="navbar-nav me-auto mb-2">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">skills</a></li>
-                  <li><a class="dropdown-item" href="#">Certificaations</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                </ul>
-              </li>
-            </ul>
-            <form role="search">
-              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            </form>
-          </div>
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">GM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link disabled" aria-disabled="true"></a>
+      </div>
+    </div>
+  </div>
+</nav>
 </section>
 <section id="about" class="gradient-background">
     <div class="px-5 py-5 my-0 text-center">
@@ -66,51 +50,188 @@
       </div>
 </section>
 <section id="skills" class="gradient-background">
-    <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Skills</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              
+<div class="container px-4 py-5" id="skills">
+    <h2 class="pb-2 border-bottom">Skills</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-md-3">
+        <div class="col">
+            <div class="skill">
+                <div class="icon">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+                <h3>Languages</h3>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Languages</h3>
-            <ul>
-                <li>C</li>
-                <li>C++</li>
-                <li>Python</li>
-
-            </ul>
-            <a href="#" class="icon-link">
-            
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Frontend</h3>
-            <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Flexbox</li>
-                <li>Grid</li>
-                <li>Bootstrap</li>
-            </ul>
-            <a href="#" class="icon-link">
-              
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-             
-            </div>
-           
-            </a>
-          </div>
         </div>
+        <div class="col">
+            <div class="skill">
+                <div class="icon">
+                    <i class="bi bi-laptop"></i>
+                </div>
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="skill">
+                <div class="icon">
+                    <i class="bi bi-tools"></i>
+                </div>
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="skill">
+                <div class="icon">
+                    <i class="bi bi-gear"></i>
+                </div>
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li> 
+                    <li>CLI</li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="skill">
+                <div class="icon">
+                    <i class="bi bi-database"></i>
+                </div>
+                <h3>Database</h3>
+                <ul>
+                    <li>PostgreSQL</li> 
+                    <li>SQL</li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+       
+
+
+
+</section>
+<section id="projects">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="/portfolio/images/dd.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>digiDrum</h5>
+        <p><a href="https://digi-drum.vercel.app/">url</a></p>
       </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<section id="footer">
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 12l18-9v18l-18-9z"></path>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Gunjan Mishra</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://twitter.com/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 3a10.3 10.3 0 0 1-2.9.8 5.2 5.2 0 0 0 2.3-2.9 10.4 10.4 0 0 1-3.3 1.3 5.2 5.2 0 0 0-8.9 4.7A14.8 14.8 0 0 1 1.7 2.4a5.2 5.2 0 0 0 1.6 7 5.1 5.1 0 0 1-2.3-.6v.1a5.2 5.2 0 0 0 4.2 5.1 5.2 5.2 0 0 1-2.3.1 5.2 5.2 0 0 0 4.9 3.6A10.4 10.4 0 0 1 1 21.2a14.7 14.7 0 0 0 8 2.4c9.6 0 14.9-7.9 14.9-14.7v-.7a10.5 10.5 0 0 0 2.5-2.7z"></path>
+          </svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://www.instagram.com/manash_15/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="17" y1="7" x2="17.01" y2="7"></line>
+          </svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077B5" width="24" height="24">
+  <path fill-rule="evenodd" d="M20.125 0H3.875C1.735 0 0 1.735 0 3.875v16.25C0 22.265 1.735 24 3.875 24h16.25C22.265 24 24 22.265 24 20.125V3.875C24 1.735 22.265 0 20.125 0zM7.938 20.125H4.969V9.562h2.969v10.563H7.938zm-1.484-12c-.82 0-1.484-.664-1.484-1.484s.664-1.484 1.484-1.484c.82 0 1.484.664 1.484 1.484s-.664 1.484-1.484 1.484zm14.031 12h-2.953v-5.813c0-1.391-.484-2.344-1.703-2.344-1.469 0-2.344 1.078-2.344 2.25v5.906H10.22V9.562h2.875v1.203c.391-.594 1.094-1.453 2.656-1.453 1.938 0 3.406 1.266 3.406 3.984v7.828z"/>
+</svg>
+
+
+
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://github.com/Gunjanmishra481">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 0 0-3.16 19.62c.5.09.68-.21.68-.46v-1.64c-2.7.59-3.27-1.3-3.27-1.3-.44-1.11-1.08-1.41-1.08-1.41-.88-.6.06-.59.06-.59 1.08.08 1.65 1.11 1.65 1.11.96 1.63 2.54 1.16 3.15.89.1-.69.38-1.16.69-1.43-2.39-.27-4.89-1.19-4.89-5.3 0-1.17.42-2.13 1.1-2.88-.11-.27-.48-1.33.11-2.77 0 0 .88-.28 2.88 1.07a9.95 9.95 0 0 1 5.26 0c2-.82 2.88-1.07 2.88-1.07.59 1.44.22 2.5.11 2.77.68.75 1.1 1.71 1.1 2.88 0 4.12-2.51 5.03-4.91 5.3.39.34.74 1.03.74 2.07v3.09c0 .26.18.56.68.46A10 10 0 0 0 12 2z"></path>
+          </svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="mailto:manashmishra438@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 3H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
+            <path d="M22 4l-10 7-10-7"></path>
+          </svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="tel:+919840004347">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92c0 2.67-1.56 4.93-3.96 5.88-2.46 1.01-5.7.4-9.2-2.54-2.76-1.86-5.31-5.42-6.14-8.38-1.13-3.58-.52-6.57 1.43-8.04.73-.71 1.61-1.18 2.62-1.18 1.32 0 2.57.68 3.33 1.94 1.24 1.73 1.63 3.9.88 6.36-1.33 4.33-3.35 8.62-5.92 12.23-1.34 1.
+
+
+   
+
+
+
 </section>
 <script src="index.js"></script>
 </body>
