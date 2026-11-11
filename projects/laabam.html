@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light" data-theme-pref="system">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,50 +8,68 @@
 <meta property="og:title" content="Laabam — Gunjan Mishra">
 <meta property="og:description" content="Shows small merchants their real profit — from bill photos and voice billing.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#F5F4F0">
+<meta name="theme-color" content="#E9EBEF">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script src="../theme.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <div class="wrap">
 <header class="site-header">
-<a class="brand" href="../index.html">Gunjan Mishra</a>
-<nav class="nav" aria-label="Primary">
-<a href="../index.html#work">← All work</a>
-<a href="mailto:gunjanmishra1415@gmail.com">Contact</a>
-<a class="pill" href="../resume.html">Résumé</a>
-</nav>
+<a class="brand" href="../index.html">gunjan<span>.</span></a>
+<div class="header-right">
+<nav class="nav" aria-label="Primary"><a href="../index.html">Home</a><a href="../index.html#work" aria-current="page">Work</a><a href="../resume.html">Résumé</a><a href="#contact">Contact</a></nav>
+<button class="theme-btn" type="button" aria-label="Change theme"><svg class="i-sys" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><svg class="i-sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+</div>
 </header>
-<main id="main">
-<section class="p-hero">
-<p class="mono">Project 03 / 05</p>
-<h1 class="display">Laabam<span class="accent">.</span></h1>
-<p class="lede">Shows small merchants their real profit — from bill photos and voice billing.</p>
-<div class="actions"><a class="pill solid" href="https://github.com/Gunjanmishra481/laabam" target="_blank" rel="noopener">View on GitHub ↗</a><a class="pill" href="../index.html#work">Back to all work</a></div>
+<main id="main" class="bento t-laabam">
+
+<section class="tile between p-hero c3" style="gap: 32px">
+<div><p class="label">AI · Web app</p><h1>Laabam</h1><p>Shows small merchants their real profit — from bill photos and voice billing.</p></div>
+<div class="btns"><a class="btn primary" href="https://github.com/Gunjanmishra481/laabam" target="_blank" rel="noopener">View on GitHub ↗</a><a class="btn secondary" href="../index.html#work">← All work</a></div>
 </section>
 
-<dl class="facts"><div><dt class="mono">Role</dt><dd>Solo build</dd></div><div><dt class="mono">Type</dt><dd>AI · Web app</dd></div><div><dt class="mono">Built with</dt><dd>AI · Web app · Image &amp; voice input</dd></div><div><dt class="mono">Year</dt><dd>2026</dd></div></dl>
+<dl class="tile tinted between facts">
+<div><dt>Role</dt><dd>Solo build</dd></div>
+<div><dt>Year</dt><dd>2026</dd></div>
+<div><dt>Built with</dt><dd class="chips"><span>AI</span><span>Web app</span><span>Image &amp; voice input</span></dd></div>
+</dl>
 
-<div class="cover" style="background: #FFF4DB; color: #7A5200" aria-hidden="true">
-<span class="mono" style="color: #7A5200">AI · Web app</span>
-<span class="cover-name">Laabam</span>
-<div class="chips"><span>AI</span><span>Web app</span><span>Image &amp; voice input</span></div>
+<section class="tile tinted problem c4" aria-labelledby="prob-h">
+<h2 id="prob-h">The<br>problem</h2>
+<p>Small merchants know what they sell, but rarely what they actually make. Books are kept on paper, if they're kept at all.</p>
+</section>
+
+<h2 class="sec-title c4">What I built</h2>
+<div class="tile step"><span class="step-num" aria-hidden="true">01</span><p>Snap a photo of a purchase bill to record it.</p></div>
+<div class="tile step"><span class="step-num" aria-hidden="true">02</span><p>Bill customers by voice instead of typing.</p></div>
+<div class="tile step"><span class="step-num" aria-hidden="true">03</span><p>See real profit without doing any bookkeeping.</p></div>
+<div class="tile tinted"><p class="label">Built with</p><p class="stack-big">AI · Web app · Image &amp; voice input</p></div>
+
+<section class="tile inv outcome c2" aria-label="Outcome">
+<p class="label">Outcome</p>
+<p>Profit visibility for merchants who would never open a spreadsheet.</p>
+</section>
+
+<a class="tile tinted between c2 t-econavi" href="econavi.html">
+<p class="label">Next project</p>
+<span class="next-row"><span class="next-name">EcoNavi</span><span class="round lg" aria-hidden="true">→</span></span>
+</a>
+
+<section class="tile accent contact c4" id="contact" aria-label="Contact">
+<h2>Let's build<br>something.</h2>
+<div class="btns">
+<a class="btn primary" href="mailto:gunjanmishra1415@gmail.com">Email me</a>
+<a class="btn ghost" href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn ghost" href="https://github.com/Gunjanmishra481" target="_blank" rel="noopener">GitHub</a>
 </div>
-
-<section class="split" aria-labelledby="prob-h"><h2 id="prob-h">The problem</h2><div class="body"><p class="prose">Small merchants know what they sell, but rarely what they actually make. Books are kept on paper, if they're kept at all.</p></div></section>
-<section class="split" aria-labelledby="built-h"><h2 id="built-h">What I built</h2><div class="body"><ol class="steps"><li><span class="mono">01</span><span>Snap a photo of a purchase bill to record it.</span></li><li><span class="mono">02</span><span>Bill customers by voice instead of typing.</span></li><li><span class="mono">03</span><span>See real profit without doing any bookkeeping.</span></li></ol></div></section>
-<section class="split" aria-labelledby="out-h"><h2 id="out-h">Outcome</h2><div class="body"><p class="outcome">Profit visibility for merchants who would never open a spreadsheet.</p></div></section>
-
-<a class="next" href="econavi.html"><span class="mono">Next project</span><span class="next-name">EcoNavi <span class="accent">→</span></span></a>
+</section>
 </main>
-<footer class="foot rule">
-<nav aria-label="Elsewhere"><a href="mailto:gunjanmishra1415@gmail.com">Email</a><a href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/" rel="me noopener" target="_blank">LinkedIn</a><a href="https://github.com/Gunjanmishra481" rel="me noopener" target="_blank">GitHub</a><a href="../resume.html">Résumé</a></nav>
-<span class="copy">© 2026 Gunjan Mishra</span>
-</footer>
+<p class="copy">© 2026 Gunjan Mishra</p>
 </div>
 </body>
 </html>
