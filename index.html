@@ -1,238 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gunjan Mishra — Software Engineer</title>
+<meta name="description" content="Gunjan Mishra — software engineer. I build apps that replace busywork: web, applied ML and iOS.">
+<meta property="og:title" content="Gunjan Mishra — Software Engineer">
+<meta property="og:description" content="Gunjan Mishra — software engineer. I build apps that replace busywork: web, applied ML and iOS.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F5F4F0">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<section id="navbar" class="gradient-background">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">GM</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#about">About</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link disabled" aria-disabled="true"></a>
-      </div>
-    </div>
-  </div>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="site-header">
+<a class="brand" href="index.html">Gunjan Mishra</a>
+<nav class="nav" aria-label="Primary">
+<a href="#work">Work</a>
+<a href="#toolkit">Toolkit</a>
+<a href="#contact">Contact</a>
+<a class="pill" href="resume.html">Résumé</a>
 </nav>
-</section>
-<section id="about" class="gradient-background">
-    <div class="px-5 py-5 my-0 text-center">
-        
-        <h1 class="display-5 fw-bold text-body-emphasis">Hi, I'm Gunjan Mishra</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">I am a B.Tech student at SRM Institute of Science and Technology (SRMIST), Chennai, specializing in Computer Science. I am proficient in programming languages like Python, and C++, and have a strong understanding of data structures and algorithms. I am also familiar with various software development methodologies and tools. I am passionate about technology and eager to learn new things. I am a team player and have excellent communication skills. I am confident that I can contribute significantly to any team or project.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/" class="btn btn-outline-primary btn-lg px-4 gap-3" target="_blank" rel="noopener noreferrer">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="LinkedIn"><title>LinkedIn</title><g><path d="M34,2A2,2,0,0,0,32,0H2A2,2,0,0,0,0,2V32a2,2,0,0,0,2,2H32a2,2,0,0,0,2-2V2ZM10.11,29.48H5.2V13.11h4.91ZM7.65,11a2.84,2.84,0,1,1,2.83-2.83A2.83,2.83,0,0,1,7.65,11ZM29.48,29.48H24.56V21.39c0-1.92-.03-4.38-2.67-4.38s-3.08,2.09-3.08,4.24v8.24H14.85V13.11h4.71v2.23h.07a5.16,5.16,0,0,1,4.64-2.55c5,0,5.92,3.29,5.92,7.58Z"/></g></svg>
-    LinkedIn
-</a>
-
-              <a href="https://github.com/Gunjanmishra481" class="btn btn-outline-secondary btn-lg px-4" target="_blank" rel="noopener noreferrer">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" role="img" aria-label="GitHub">
-            <title>GitHub</title>
-            <path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.2c-3.34.73-4.04-1.42-4.04-1.42a3.17 3.17 0 00-1.34-1.76c-1.1-.75.09-.73.09-.73a2.5 2.5 0 011.83 1.23 2.54 2.54 0 003.47.99 2.54 2.54 0 01.76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.63 4.63 0 011.24-3.22 4.31 4.31 0 01.12-3.17s1-.32 3.3 1.23a11.5 11.5 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23a4.31 4.31 0 01.12 3.17 4.63 4.63 0 011.24 3.22c0 4.61-2.8 5.62-5.47 5.93a2.86 2.86 0 01.81 2.21v3.28c0 .32.22.7.82.58A12 12 0 0012 .5z"/>
-        </svg>
-        GitHub
-    </a>
-          </div>
-        </div>
-      </div>
-</section>
-<section id="skills" class="gradient-background">
-<div class="container px-4 py-5" id="skills">
-    <h2 class="pb-2 border-bottom">Skills</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-md-3">
-        <div class="col">
-            <div class="skill">
-                <div class="icon">
-                    <i class="bi bi-code-slash"></i>
-                </div>
-                <h3>Languages</h3>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col">
-            <div class="skill">
-                <div class="icon">
-                    <i class="bi bi-laptop"></i>
-                </div>
-                <h3>Frontend</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col">
-            <div class="skill">
-                <div class="icon">
-                    <i class="bi bi-tools"></i>
-                </div>
-                <h3>Backend</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col">
-            <div class="skill">
-                <div class="icon">
-                    <i class="bi bi-gear"></i>
-                </div>
-                <h3>Tools & Technologies</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>GitHub</li> 
-                    <li>CLI</li>
-                   
-                </ul>
-            </div>
-        </div>
-        <div class="col">
-            <div class="skill">
-                <div class="icon">
-                    <i class="bi bi-database"></i>
-                </div>
-                <h3>Database</h3>
-                <ul>
-                    <li>PostgreSQL</li> 
-                    <li>SQL</li>
-                   
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-       
-
-
-
-</section>
-<section id="projects">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="dd.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>digiDrum</h5>
-        <p><a href="https://digi-drum.vercel.app/">url</a></p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+</header>
+<main id="main">
+<section class="hero" aria-label="Introduction">
+<p class="mono"><span>Software Engineer</span><span>Web · Applied ML · iOS</span></p>
+<h1 class="display">Gunjan<br>Mishra<span class="accent">.</span></h1>
+<div class="hero-foot">
+<p class="lede">I build apps that <span class="accent">replace busywork.</span> Software engineer working across the web (React, TypeScript), applied ML (Python, PyTorch) and iOS (SwiftUI, UIKit).</p>
+<p class="hero-meta">B.Tech CSE (AI/ML), SRMIST<br>India</p>
 </div>
 </section>
-<section id="footer">
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 12l18-9v18l-18-9z"></path>
-        </svg>
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Gunjan Mishra</span>
-    </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3">
-        <a class="text-body-secondary" href="https://twitter.com/">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M23 3a10.3 10.3 0 0 1-2.9.8 5.2 5.2 0 0 0 2.3-2.9 10.4 10.4 0 0 1-3.3 1.3 5.2 5.2 0 0 0-8.9 4.7A14.8 14.8 0 0 1 1.7 2.4a5.2 5.2 0 0 0 1.6 7 5.1 5.1 0 0 1-2.3-.6v.1a5.2 5.2 0 0 0 4.2 5.1 5.2 5.2 0 0 1-2.3.1 5.2 5.2 0 0 0 4.9 3.6A10.4 10.4 0 0 1 1 21.2a14.7 14.7 0 0 0 8 2.4c9.6 0 14.9-7.9 14.9-14.7v-.7a10.5 10.5 0 0 0 2.5-2.7z"></path>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="https://www.instagram.com/manash_15/">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="17" y1="7" x2="17.01" y2="7"></line>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0077B5" width="24" height="24">
-  <path fill-rule="evenodd" d="M20.125 0H3.875C1.735 0 0 1.735 0 3.875v16.25C0 22.265 1.735 24 3.875 24h16.25C22.265 24 24 22.265 24 20.125V3.875C24 1.735 22.265 0 20.125 0zM7.938 20.125H4.969V9.562h2.969v10.563H7.938zm-1.484-12c-.82 0-1.484-.664-1.484-1.484s.664-1.484 1.484-1.484c.82 0 1.484.664 1.484 1.484s-.664 1.484-1.484 1.484zm14.031 12h-2.953v-5.813c0-1.391-.484-2.344-1.703-2.344-1.469 0-2.344 1.078-2.344 2.25v5.906H10.22V9.562h2.875v1.203c.391-.594 1.094-1.453 2.656-1.453 1.938 0 3.406 1.266 3.406 3.984v7.828z"/>
-</svg>
-
-
-
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="https://github.com/Gunjanmishra481">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2a10 10 0 0 0-3.16 19.62c.5.09.68-.21.68-.46v-1.64c-2.7.59-3.27-1.3-3.27-1.3-.44-1.11-1.08-1.41-1.08-1.41-.88-.6.06-.59.06-.59 1.08.08 1.65 1.11 1.65 1.11.96 1.63 2.54 1.16 3.15.89.1-.69.38-1.16.69-1.43-2.39-.27-4.89-1.19-4.89-5.3 0-1.17.42-2.13 1.1-2.88-.11-.27-.48-1.33.11-2.77 0 0 .88-.28 2.88 1.07a9.95 9.95 0 0 1 5.26 0c2-.82 2.88-1.07 2.88-1.07.59 1.44.22 2.5.11 2.77.68.75 1.1 1.71 1.1 2.88 0 4.12-2.51 5.03-4.91 5.3.39.34.74 1.03.74 2.07v3.09c0 .26.18.56.68.46A10 10 0 0 0 12 2z"></path>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="mailto:manashmishra438@gmail.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 3H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
-            <path d="M22 4l-10 7-10-7"></path>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="tel:+919840004347">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92c0 2.67-1.56 4.93-3.96 5.88-2.46 1.01-5.7.4-9.2-2.54-2.76-1.86-5.31-5.42-6.14-8.38-1.13-3.58-.52-6.57 1.43-8.04.73-.71 1.61-1.18 2.62-1.18 1.32 0 2.57.68 3.33 1.94 1.24 1.73 1.63 3.9.88 6.36-1.33 4.33-3.35 8.62-5.92 12.23-1.34 1.
-
-
-   
-
-
-
+<section class="work" id="work" aria-labelledby="work-h">
+<div class="sec-head"><h2 id="work-h">Selected work</h2><span class="mono">(05)</span></div>
+<ol class="index">
+<li><a href="projects/fleetledger.html">
+<span class="num">01</span>
+<span class="name">FleetLedger</span>
+<span class="desc">Trip, load and invoice management for a car-carrier logistics client. Touch-first, works on phone, tablet and desktop — replaced their monthly Excel loading sheet.</span>
+<span class="meta">Client product<br>Web app · 2026</span>
+</a></li>
+<li><a href="projects/undo.html">
+<span class="num">02</span>
+<span class="name">Undo</span>
+<span class="desc">An AI agent that helps people recover money sent to the wrong UPI ID. Plugs into Paytm and banks as a partner integration; runs as a PWA on AWS.</span>
+<span class="meta">AI agent · PWA<br>AWS · 2026</span>
+</a></li>
+<li><a href="projects/laabam.html">
+<span class="num">03</span>
+<span class="name">Laabam</span>
+<span class="desc">Shows small merchants their real profit from photos of bills and voice billing — no bookkeeping required.</span>
+<span class="meta">AI · Web app<br>2026</span>
+</a></li>
+<li><a href="projects/econavi.html">
+<span class="num">04</span>
+<span class="name">EcoNavi</span>
+<span class="desc">Navigation that shows the carbon cost of every route. Estimates a trip's emissions with DEFRA/EEA factors and ranks routes with a weighted-sum model so the greener option is one tap away.</span>
+<span class="meta">SwiftUI · Supabase<br>iOS app</span>
+</a></li>
+<li><a href="projects/fleetly.html">
+<span class="num">05</span>
+<span class="name">Fleetly</span>
+<span class="desc">Fleet management iOS app with live maps, location tracking and PDF trip reports, built with a 10-person team during my iOS internship at Infosys.</span>
+<span class="meta">UIKit<br>Infosys · 2025</span>
+</a></li>
+</ol>
 </section>
-<script src="index.js"></script>
+
+<section class="split" id="toolkit" aria-labelledby="kit-h">
+<h2 id="kit-h">Toolkit</h2>
+<div class="body kit">
+<div><h3>Web</h3><p>React<br>TypeScript<br>PWA</p></div>
+<div><h3>Data &amp; ML</h3><p>Python<br>PyTorch<br>pandas<br>scikit-learn</p></div>
+<div><h3>Cloud</h3><p>AWS<br>Supabase</p></div>
+<div><h3>iOS</h3><p>SwiftUI<br>UIKit</p></div>
+</div>
+</section>
+</main>
+
+<footer class="contact" id="contact">
+<p class="mono" style="margin: 0 0 24px">Have a role or a problem worth solving?</p>
+<a class="big-link" href="mailto:gunjanmishra1415@gmail.com">Let's talk<span class="accent">→</span></a>
+<div class="foot">
+<nav aria-label="Elsewhere"><a href="mailto:gunjanmishra1415@gmail.com">Email</a><a href="https://www.linkedin.com/in/gunjan-mishra-9954a3242/" rel="me noopener" target="_blank">LinkedIn</a><a href="https://github.com/Gunjanmishra481" rel="me noopener" target="_blank">GitHub</a><a href="resume.html">Résumé</a></nav>
+<span class="copy">© 2026 Gunjan Mishra</span>
+</div>
+</footer>
+</div>
 </body>
 </html>
